@@ -19,6 +19,8 @@ public class PruebaSpring {
 		
 		AlumnoArq miBeanLeo = (AlumnoArq) factory.getBean("miBeanLeo");
 		System.out.println("Alumno: " + miBeanLeo.getNombre() + miBeanLeo.getApellido());
+		
+		System.out.println("Por acá estuvo Juan José Ramirez (y) ");
 	}
 
 }
