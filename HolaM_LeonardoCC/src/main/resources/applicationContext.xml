@@ -8,7 +8,7 @@
 	</bean>
 	
 	<bean id="miBeanLeo" class="beans.AlumnoArq">
-		<property name="nombre" value="Leonardo malo" />
+		<property name="nombre" value="Leonardo " />
 		<property name="apellido" value="Cubides" />
 	</bean>
 	
