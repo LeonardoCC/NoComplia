@@ -18,8 +18,7 @@ public class PruebaSpring {
 		System.out.println("Mensaje: " + miBean.getMensaje());
 		
 		AlumnoArq miBeanLeo = (AlumnoArq) factory.getBean("miBeanLeo");
-		System.out.println("Alumno: " + miBeanLeo.getNombre());
-		
+		System.out.println("Alumno: " + miBeanLeo.getNombre() + miBeanLeo.getApellido());
 	}
 
 }
